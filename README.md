@@ -1,3 +1,27 @@
+## About
+
+This is Team 11392's source code for the Ultimate Goal, the 2020-21 season for the First Tech Challenge robotics competition. All the code that is actually modified is contained within `TeamCode/src/main/java/org/firstinspires/ftc/teamcode`.
+
+It utilizes Roadrunner as well as EasyOpenCV - Because EasyOpenCv depends on OpenCV-Repackaged, you will also need to copy [libOpenCvNative.so](https://github.com/OpenFTC/OpenCV-Repackaged/blob/master/doc/libOpenCvNative.so) into the FIRST folder on the USB storage of the Robot Controller (i.e. connect the Robot Controller to your computer with a USB cable, put it into MTP mode, and drag 'n drop the file).
+
+Our project is built on the [command-based programming system](https://docs.wpilib.org/en/stable/docs/software/commandbased/index.html), which essentially does any action through running Tasks, which, when used well, allows more flexibility than a singular linear loop implementation. The repository runs on our own implementation of this idea called [Sequoia](https://github.com/HighOakRobotics/Sequoia).
+
+## How to Clone this Repo:
+- Go to Git Bash
+- Navigate to an empty folder (this folder will store your repo)
+- cd `<path to folder>`
+- git init
+- git remote add upstream https://github.com/HighOakRobotics/11392UltimateGoal
+- git pull upstream master
+
+Create an empty GitHub repository from the website interface (do NOT initialize it with a README, LICENSE, or gitignore)
+
+- git remote add origin `<your own empty repo link>`
+- git push -u origin master
+
+You would repeat this process (aside from git init and creating a new GitHub repo) whenever FTC releases an official update to their repo
+To remove a remote, use `git remote rm <remote-name>` so you can repeat the process again without conflicts.
+
 ## NOTICE
 
 This repository contains the public FTC SDK for the Ultimate Goal (2020-2021) competition season.
