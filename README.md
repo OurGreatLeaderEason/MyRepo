@@ -7,7 +7,7 @@ It utilizes Roadrunner as well as EasyOpenCV - Because EasyOpenCv depends on Ope
 Our project is built on the [command-based programming system](https://docs.wpilib.org/en/stable/docs/software/commandbased/index.html), which essentially does any action through running Tasks, which, when used well, allows more flexibility than a singular linear loop implementation. The repository runs on our own implementation of this idea called [Sequoia](https://github.com/HighOakRobotics/Sequoia).
 
 ## How to Clone this Repo:
-- Go to Git Bash
+- Go to any terminal or console where Git is available. (On Windows you can use Command Prompt or Git Bash. On Mac use Terminal. On Linux use any shell or terminal like xterm with `bash` or `zsh`.)
 - Navigate to an empty folder (this folder will store your repo)
 - cd `<path to folder>`
 - git init
